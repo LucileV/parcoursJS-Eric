@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title>Les Tableaux</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <script type="text/javascript">
+
+
+// Exercice
+// 
+// 
+  var nom     = "Verrecchia";
+  var prenom  = "Lucile";
+  var ville   = "Bruxelles"
+
+
+  alert(
+    " Nom : " + nom  +  "\n Prenom : " + " " + prenom + " " +  "\n Ville : " + ville);
+
+
+// Exercice 4 : Boites de dialogue
+   var nom2    = prompt("Nom : ");
+   var prenom2 = prompt("Prenom : ");
+   var ville2  = prompt("Ville :");
+   alert("Bonjour " + prenom2 + " " + nom2 + " " + ville2 );
+
+
+// Exercice
+
+  var nbr1 = ("Indiquez un premier nombre à virgule");
+  var nbr2 = prompt("Indiquez un deuxieme nombre à virgule");
+
+  alert( nbr1 * nbr2);
+
+
+
+  </script>
+</head>
+
+    <body>
+        <form>
+            <label for="nom">Nom : </label><input type="text" name="nom" id="nom"/>
+            <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom"/>
+            <label for="ville">Ville : </label><input type="text" name="ville" id="ville"/>
+            <button  name="valider" id="valider">Valider</button>
+        </form>
+    </body>
+</html>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_5</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <label>Premier nombre : </label><input type="text" id="premier_nombre" name="premier_nombre"/><br/>
+            <label>Deuxième nombre : </label><input type="text" id="deuxieme_nombre" name="deuxieme_nombre"/><br/>
+            <input type="button" value="Valider" id="valider" name ="valider" onclick="multiplier(); return false;"></input>
+        </form>
+        <p id="result"></p>
+
+<script type="text/javascript">
+
+
+// Exercice 5
+      
+ 
+
+    function multiplier (){
+
+      var entier = document.getElementById('premier_nombre').value;
+      var decimal = document.getElementById('deuxieme_nombre').value; 
+      var resultat = parseInt(entier) * decimal;
+
+
+      document.getElementById("result").innerHTML = ("Les résultat de ce calcule est " + resultat);
+    
+    }
+
+  
+
+</script>
+
+
+    </body>
+
+
+</html>
