@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_8</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+ 
+        <script>
+          
+// Devine
+ 
+    var num = Math.floor(Math.random() * 100);
+
+        
+    for (var i=0; i<10; i++){
+
+            devine = prompt("Quel est ton chiffre ? Tu as " + (10-i) + " chances") ;
+             
+            if (devine < num) {
+             
+                  console.log("c'est plus grand");
+             
+            }else if(devine > num) {
+             
+                  console.log("c'est plus grand");
+                   
+            }else if(devine == num){
+             
+                console.log("c'est gagné \n C\'était" + num);
+                break;
+                   
+            }
+
+      }
+
+      </script> 
+
+    </body>
+
+</html>
